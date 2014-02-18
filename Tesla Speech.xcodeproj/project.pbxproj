@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		593084A418AD093D00BD48A2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 593084A318AD093D00BD48A2 /* Cocoa.framework */; };
+		593084AE18AD093D00BD48A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 593084AC18AD093D00BD48A2 /* InfoPlist.strings */; };
+		593084B018AD093D00BD48A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 593084AF18AD093D00BD48A2 /* main.m */; };
+		593084B718AD093D00BD48A2 /* APAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 593084B618AD093D00BD48A2 /* APAppDelegate.m */; };
+		593084D818AD09E900BD48A2 /* APPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 593084D718AD09E900BD48A2 /* APPanel.xib */; };
+		593084DB18AD09EE00BD48A2 /* APPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 593084DA18AD09EE00BD48A2 /* APPanel.m */; };
+		593084DE18AD09FA00BD48A2 /* APPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 593084DD18AD09FA00BD48A2 /* APPanelController.m */; };
+		593084E318AD0AFA00BD48A2 /* APStatusItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 593084E018AD0AFA00BD48A2 /* APStatusItemView.m */; };
+		593084E418AD0AFA00BD48A2 /* APBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 593084E218AD0AFA00BD48A2 /* APBackgroundView.m */; };
+		593084E718AD102200BD48A2 /* APMenubarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 593084E618AD102200BD48A2 /* APMenubarController.m */; };
+		593084E918AD11C200BD48A2 /* ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 593084E818AD11C200BD48A2 /* ico.png */; };
+		593084EF18AD141600BD48A2 /* APSpeech.m in Sources */ = {isa = PBXBuildFile; fileRef = 593084EE18AD141600BD48A2 /* APSpeech.m */; };
+		593084F218AD162700BD48A2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 593084F118AD162700BD48A2 /* AVFoundation.framework */; };
+		593084F418AD19AC00BD48A2 /* ico_big.png in Resources */ = {isa = PBXBuildFile; fileRef = 593084F318AD19AC00BD48A2 /* ico_big.png */; };
+		593084F618AD1AAD00BD48A2 /* ico_512.png in Resources */ = {isa = PBXBuildFile; fileRef = 593084F518AD1AAD00BD48A2 /* ico_512.png */; };
+		5930850318AD2B0200BD48A2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5930850118AD2B0200BD48A2 /* MainMenu.xib */; };
+		5993EDA518B3B24700AE34D0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5993EDA418B3B24700AE34D0 /* README.md */; };
+		5993EDA718B3B97F00AE34D0 /* tesla-speech.png in Resources */ = {isa = PBXBuildFile; fileRef = 5993EDA618B3B97F00AE34D0 /* tesla-speech.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		593084A018AD093D00BD48A2 /* Tesla Speech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tesla Speech.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		593084A318AD093D00BD48A2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		593084A618AD093D00BD48A2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		593084A718AD093D00BD48A2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		593084A818AD093D00BD48A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		593084AB18AD093D00BD48A2 /* Tesla Speech-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tesla Speech-Info.plist"; sourceTree = "<group>"; };
+		593084AD18AD093D00BD48A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		593084AF18AD093D00BD48A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		593084B118AD093D00BD48A2 /* Tesla Speech-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tesla Speech-Prefix.pch"; sourceTree = "<group>"; };
+		593084B518AD093D00BD48A2 /* APAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APAppDelegate.h; sourceTree = "<group>"; };
+		593084B618AD093D00BD48A2 /* APAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APAppDelegate.m; sourceTree = "<group>"; };
+		593084C218AD093E00BD48A2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		593084D718AD09E900BD48A2 /* APPanel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APPanel.xib; sourceTree = "<group>"; };
+		593084D918AD09EE00BD48A2 /* APPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPanel.h; sourceTree = "<group>"; };
+		593084DA18AD09EE00BD48A2 /* APPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPanel.m; sourceTree = "<group>"; };
+		593084DC18AD09FA00BD48A2 /* APPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPanelController.h; sourceTree = "<group>"; };
+		593084DD18AD09FA00BD48A2 /* APPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPanelController.m; sourceTree = "<group>"; };
+		593084DF18AD0AFA00BD48A2 /* APStatusItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APStatusItemView.h; sourceTree = "<group>"; };
+		593084E018AD0AFA00BD48A2 /* APStatusItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APStatusItemView.m; sourceTree = "<group>"; };
+		593084E118AD0AFA00BD48A2 /* APBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APBackgroundView.h; sourceTree = "<group>"; };
+		593084E218AD0AFA00BD48A2 /* APBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APBackgroundView.m; sourceTree = "<group>"; };
+		593084E518AD102200BD48A2 /* APMenubarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APMenubarController.h; sourceTree = "<group>"; };
+		593084E618AD102200BD48A2 /* APMenubarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APMenubarController.m; sourceTree = "<group>"; };
+		593084E818AD11C200BD48A2 /* ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico.png; sourceTree = "<group>"; };
+		593084ED18AD141600BD48A2 /* APSpeech.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APSpeech.h; sourceTree = "<group>"; };
+		593084EE18AD141600BD48A2 /* APSpeech.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APSpeech.m; sourceTree = "<group>"; };
+		593084F118AD162700BD48A2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		593084F318AD19AC00BD48A2 /* ico_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_big.png; sourceTree = "<group>"; };
+		593084F518AD1AAD00BD48A2 /* ico_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_512.png; sourceTree = "<group>"; };
+		5930850418AD2B8700BD48A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5993EDA418B3B24700AE34D0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		5993EDA618B3B97F00AE34D0 /* tesla-speech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tesla-speech.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5930849D18AD093D00BD48A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593084F218AD162700BD48A2 /* AVFoundation.framework in Frameworks */,
+				593084A418AD093D00BD48A2 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5930849718AD093D00BD48A2 = {
+			isa = PBXGroup;
+			children = (
+				5993EDA418B3B24700AE34D0 /* README.md */,
+				5993EDA618B3B97F00AE34D0 /* tesla-speech.png */,
+				593084A918AD093D00BD48A2 /* Tesla Speech */,
+				593084A218AD093D00BD48A2 /* Frameworks */,
+				593084A118AD093D00BD48A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		593084A118AD093D00BD48A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				593084A018AD093D00BD48A2 /* Tesla Speech.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		593084A218AD093D00BD48A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				593084F118AD162700BD48A2 /* AVFoundation.framework */,
+				593084A318AD093D00BD48A2 /* Cocoa.framework */,
+				593084C218AD093E00BD48A2 /* XCTest.framework */,
+				593084A518AD093D00BD48A2 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		593084A518AD093D00BD48A2 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				593084A618AD093D00BD48A2 /* AppKit.framework */,
+				593084A718AD093D00BD48A2 /* CoreData.framework */,
+				593084A818AD093D00BD48A2 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		593084A918AD093D00BD48A2 /* Tesla Speech */ = {
+			isa = PBXGroup;
+			children = (
+				593084B518AD093D00BD48A2 /* APAppDelegate.h */,
+				593084B618AD093D00BD48A2 /* APAppDelegate.m */,
+				5930850118AD2B0200BD48A2 /* MainMenu.xib */,
+				593084F018AD141A00BD48A2 /* Speech */,
+				593084EA18AD13D000BD48A2 /* Panel */,
+				593084EB18AD13DB00BD48A2 /* Status Item */,
+				593084EC18AD13E600BD48A2 /* Menu Bar */,
+				593084AA18AD093D00BD48A2 /* Supporting Files */,
+			);
+			path = "Tesla Speech";
+			sourceTree = "<group>";
+		};
+		593084AA18AD093D00BD48A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				593084F518AD1AAD00BD48A2 /* ico_512.png */,
+				593084F318AD19AC00BD48A2 /* ico_big.png */,
+				593084E818AD11C200BD48A2 /* ico.png */,
+				593084AB18AD093D00BD48A2 /* Tesla Speech-Info.plist */,
+				593084AC18AD093D00BD48A2 /* InfoPlist.strings */,
+				593084AF18AD093D00BD48A2 /* main.m */,
+				593084B118AD093D00BD48A2 /* Tesla Speech-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		593084EA18AD13D000BD48A2 /* Panel */ = {
+			isa = PBXGroup;
+			children = (
+				593084D918AD09EE00BD48A2 /* APPanel.h */,
+				593084DA18AD09EE00BD48A2 /* APPanel.m */,
+				593084D718AD09E900BD48A2 /* APPanel.xib */,
+				593084DC18AD09FA00BD48A2 /* APPanelController.h */,
+				593084DD18AD09FA00BD48A2 /* APPanelController.m */,
+				593084E118AD0AFA00BD48A2 /* APBackgroundView.h */,
+				593084E218AD0AFA00BD48A2 /* APBackgroundView.m */,
+			);
+			name = Panel;
+			sourceTree = "<group>";
+		};
+		593084EB18AD13DB00BD48A2 /* Status Item */ = {
+			isa = PBXGroup;
+			children = (
+				593084DF18AD0AFA00BD48A2 /* APStatusItemView.h */,
+				593084E018AD0AFA00BD48A2 /* APStatusItemView.m */,
+			);
+			name = "Status Item";
+			sourceTree = "<group>";
+		};
+		593084EC18AD13E600BD48A2 /* Menu Bar */ = {
+			isa = PBXGroup;
+			children = (
+				593084E518AD102200BD48A2 /* APMenubarController.h */,
+				593084E618AD102200BD48A2 /* APMenubarController.m */,
+			);
+			name = "Menu Bar";
+			sourceTree = "<group>";
+		};
+		593084F018AD141A00BD48A2 /* Speech */ = {
+			isa = PBXGroup;
+			children = (
+				593084ED18AD141600BD48A2 /* APSpeech.h */,
+				593084EE18AD141600BD48A2 /* APSpeech.m */,
+			);
+			name = Speech;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5930849F18AD093D00BD48A2 /* Tesla Speech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 593084D118AD093E00BD48A2 /* Build configuration list for PBXNativeTarget "Tesla Speech" */;
+			buildPhases = (
+				5930849C18AD093D00BD48A2 /* Sources */,
+				5930849D18AD093D00BD48A2 /* Frameworks */,
+				5930849E18AD093D00BD48A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tesla Speech";
+			productName = "Tesla Speech";
+			productReference = 593084A018AD093D00BD48A2 /* Tesla Speech.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5930849818AD093D00BD48A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AP;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = albertopasca.it;
+			};
+			buildConfigurationList = 5930849B18AD093D00BD48A2 /* Build configuration list for PBXProject "Tesla Speech" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5930849718AD093D00BD48A2;
+			productRefGroup = 593084A118AD093D00BD48A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5930849F18AD093D00BD48A2 /* Tesla Speech */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5930849E18AD093D00BD48A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5993EDA718B3B97F00AE34D0 /* tesla-speech.png in Resources */,
+				593084E918AD11C200BD48A2 /* ico.png in Resources */,
+				593084F618AD1AAD00BD48A2 /* ico_512.png in Resources */,
+				593084AE18AD093D00BD48A2 /* InfoPlist.strings in Resources */,
+				593084D818AD09E900BD48A2 /* APPanel.xib in Resources */,
+				593084F418AD19AC00BD48A2 /* ico_big.png in Resources */,
+				5930850318AD2B0200BD48A2 /* MainMenu.xib in Resources */,
+				5993EDA518B3B24700AE34D0 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5930849C18AD093D00BD48A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				593084E718AD102200BD48A2 /* APMenubarController.m in Sources */,
+				593084DE18AD09FA00BD48A2 /* APPanelController.m in Sources */,
+				593084DB18AD09EE00BD48A2 /* APPanel.m in Sources */,
+				593084E418AD0AFA00BD48A2 /* APBackgroundView.m in Sources */,
+				593084B018AD093D00BD48A2 /* main.m in Sources */,
+				593084E318AD0AFA00BD48A2 /* APStatusItemView.m in Sources */,
+				593084EF18AD141600BD48A2 /* APSpeech.m in Sources */,
+				593084B718AD093D00BD48A2 /* APAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		593084AC18AD093D00BD48A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				593084AD18AD093D00BD48A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5930850118AD2B0200BD48A2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5930850418AD2B8700BD48A2 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		593084CF18AD093E00BD48A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		593084D018AD093E00BD48A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		593084D218AD093E00BD48A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tesla Speech/Tesla Speech-Prefix.pch";
+				INFOPLIST_FILE = "Tesla Speech/Tesla Speech-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		593084D318AD093E00BD48A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tesla Speech/Tesla Speech-Prefix.pch";
+				INFOPLIST_FILE = "Tesla Speech/Tesla Speech-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5930849B18AD093D00BD48A2 /* Build configuration list for PBXProject "Tesla Speech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593084CF18AD093E00BD48A2 /* Debug */,
+				593084D018AD093E00BD48A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		593084D118AD093E00BD48A2 /* Build configuration list for PBXNativeTarget "Tesla Speech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				593084D218AD093E00BD48A2 /* Debug */,
+				593084D318AD093E00BD48A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5930849818AD093D00BD48A2 /* Project object */;
+}
