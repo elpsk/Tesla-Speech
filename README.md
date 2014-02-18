@@ -5,7 +5,7 @@ Google translate speech implementation on Mac OSX - Cocoa
 
 Screenshot
 ------------
-![SS Screenshot](https://raw.github.com/elpsk/APGraph-Route/master/tesla-speech.png "SS")
+![SS Screenshot](https://raw2.github.com/elpsk/Tesla-Speech/master/tesla-speech.png "SS")
 
 
 Requirements
